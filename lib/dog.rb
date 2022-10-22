@@ -10,7 +10,17 @@ class Dog
         @name
     end
 
-    
+    #breed setter method
+    def breed=(breed)
+        #instance variable breed 
+        @breed =breed
+    end
+
+    #breed getter method 
+    def breed
+        @breed
+    end
+
 
 
 end
