@@ -20,7 +20,11 @@ class Person
     def job
         @job
     end
-    
-
-
 end
+
+#instance of our class 
+james = Person.new
+#set job 
+item = james.job="Developer"
+#print james job 
+puts item
